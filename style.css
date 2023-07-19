@@ -1,0 +1,314 @@
+/* shared style */
+:root {
+    --primary-color: #070405;
+}
+
+* {
+    font-family: 'Work Sans', sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.btn-well,
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: var(--primary-color);
+    margin-top: 40px;
+}
+
+.btn {
+    background-color: #27a3d8;
+}
+
+.section-tltle {
+    color: #0B0223;
+
+    font-size: 48px;
+
+    font-weight: 700;
+}
+
+.section-tltle span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #534C64;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+main {
+    margin: 0 240px;
+}
+
+
+/* header section */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width:1440px ; */
+    margin: 30px 240px;
+
+}
+
+nav>ul {
+    display: flex;
+    /* justify-content: ce; */
+    align-items: center;
+    gap: 32px;
+
+}
+
+.logo-start {
+    display: flex;
+    gap: 20px;
+
+}
+
+.logo-start h2 {
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo-start span {
+    color: var(--primary-color);
+}
+
+
+
+
+ul li {
+    list-style: none;
+    color: #3C354F;
+    font-weight: 500;
+}
+
+.follow {
+    border-radius: 8px;
+    display: flex;
+    gap: 24px;
+    padding: 17px 24px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.follow img {
+    height: 24px;
+}
+
+/* Banner-sec */
+
+.banner-1 {
+    background-image: url("images/Group 14.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 240px;
+
+}
+
+.banner-title-1 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.Goat {
+    background: linear-gradient(180deg, #e95bb0 0%, #52329c 100%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.list-1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.list-below {
+    color: #3f394b;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+    text-transform: lowercase;
+}
+
+.fa-solid {
+    color: var(--primary-color);
+    text-align: center;
+    padding: 0;
+}
+
+/* online-gaming-zone */
+
+.online-game {
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+.game-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.image-description {
+    width: 340px;
+
+}
+
+.game-img img {
+    margin: 48px 0 24px 0;
+}
+
+/* running-play-sec*/
+
+.instant-play {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 0;
+
+
+}
+
+
+.instant-contant>.section-tltle,
+.instant-contant>.section-description {
+    width: 350px;
+    text-align: right;
+    margin-bottom: 24px;
+
+}
+
+.instant-img .small {
+    border-radius: 8px;
+    position: relative;
+    left: 150px;
+    top: 75px;
+}
+
+
+/* gaming-variant-sec */
+
+.game-type-container {
+    margin-top: 120px;
+    gap: 27px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.game-type {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid white;
+
+}
+
+.game-type:hover {
+    border: 2px solid var(--primary-color);
+
+}
+
+.game-type:hover .img-description {
+    color: var(--primary-color);
+
+}
+
+.game-type:hover .game-type-container {
+    gap: 8px;
+}
+
+.img-description {
+    color: #0B0223;
+
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+.footer-sec {
+    background-color: blueviolet;
+    height: 500px;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    border: none;
+}
+
+.foot ul {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 450px;
+
+}
+
+.foot ul li a {
+    margin: 5px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+}
+
+.ul-last a {
+    text-decoration: none;
+}
+
+.ul-last {
+    display: flex;
+    margin: 20px;
+
+    margin-left: 400px;
+}
+
+.ul-last a {
+    margin: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.h21 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p-f {
+    color: gray;
+    text-align: center;
+}
